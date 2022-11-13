@@ -1,3 +1,3 @@
 # Kokoa clone 2022
 
-doing CSS
+Learned HTML and CSS so doing clone coding.
