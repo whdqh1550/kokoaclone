@@ -1,0 +1,50 @@
+.nav {
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  /*the box-sizing is telling css to not increase size of box due to padding*/
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__btn {
+}
+.nav__link {
+  color: #2e363e;
+  position: relative;
+  /* this is to make the red notification to be positioned,
+  it has to be on the parents of the where it need so its here
+  using relative here, if you use absolute it allignes with closest 
+  relative father.*/
+}
+.nav__notification {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  /* it allows to be on top of father but you can move only when you
+  put position relative on the father class*/
+  left: 15px;
+  bottom: 15px;
+}
+.nav__update {
+  background-color: tomato;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+  border-radius: 50%;
+}

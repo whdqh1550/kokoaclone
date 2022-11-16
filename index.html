@@ -32,9 +32,11 @@
         If you have Kokoa account, log in with your email or phone number
       </p>
     </header>
-    <form class="login-form">
-      <input type="text" placeholder="Email or Phone number" />
-      <input type="password" placeholder="Password" />
+    <!--action is to locate where this button is going to send data-->
+    <!--method is post or get. post is for backend,we will use get but get is insecure -->
+    <form action="friends.html" method="get" class="login-form">
+      <input name="username" type="text" placeholder="Email or Phone number" />
+      <input name="password" type="password" placeholder="Password" />
       <input type="submit" value="Log In" />
       <input type="submit" value="Sign Up" />
       <a href="#">Find Kokoa Account or Password</a>

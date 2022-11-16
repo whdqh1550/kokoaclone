@@ -1,0 +1,27 @@
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+}
+.user-component__title {
+  padding-top: 5px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.user-component__subtitle {
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+}
+.friends-main {
+  padding: 0px var(--horizontal-space);
+}
