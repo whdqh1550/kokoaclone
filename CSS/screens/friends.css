@@ -11,3 +11,17 @@
 .friends-main {
   padding: 0px var(--horizontal-space);
 }
+.friends-screen__channel {
+  padding: 15px;
+  margin-top: 10px;
+  border-top: solid 1px rgba(0, 0, 0, 0.3);
+}
+
+.friends-screen__channel-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+.channel-header__icon i {
+  color: rgba(0, 0, 0, 0.3);
+}

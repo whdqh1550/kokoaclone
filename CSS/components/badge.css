@@ -1,0 +1,25 @@
+.badge {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+
+  /* it allows to be on top of father but you can move only when you
+    put position relative on the father class*/
+  left: 15px;
+  bottom: 15px;
+}
+.badge__upadate {
+  background-color: tomato;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+  border-radius: 50%;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends of Kokoa Clone</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+        <!--To Do: wifi Icon needs to be placed-->
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-xl"></i>
+        <!--To do: battery icon-->
+        <i class="fa-solid fa-bolt"></i>
+        <!--To do: lightning icon-->
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Finds</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        <span class="badge__update">
+          <i class="fa-solid fa-gear"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="find-icons">
+        <div class="find-icons__icon">
+          <i class="fa-solid fa-qrcode"></i>
+          <span>QR</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="fa-solid fa-address-book"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="fa-solid fa-id-card-clip"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended Friends</h6>
+        <span class="recommended-friends__text">You have no recommended friends</span>
+
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4 >open chat</h4>
+          <span>Go to Openchat Home</span>
+        </div>
+
+      </div>
+      
+
+    </main>
+
+    <!--nav is for navigation and google search look for ul 
+    and li, like menus so we have to make sure to use ul and li
+    making nav ul and number of li can be automated by nav>ul>li*4>a-->
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-regular fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chat.html">
+            <span class="nav__notification">1</span>
+            <i class="fa-regular fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="search.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__update"></span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--action is to locate where this button is going to send data-->
+    <!--method is post or get. post is for backend,we will use get but get is insecure -->
+
+    <script
+      src="https://kit.fontawesome.com/1bac1fc227.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
